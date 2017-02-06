@@ -1,0 +1,12 @@
+{
+	"name": "angular-townsquare",
+	"version": "0.0.1",
+	"description": "Angular tabs example with a rendered JSON list",
+	"main": "index.html",
+	"repository": {
+		"type": "git",
+		"url": "https://amazingBastard@github.com/amazingBastard/angular-townsquare.git"
+	},
+	"author": "Damir Vazgird",
+	"homepage": "https://github.com/amazingBastard/angular-townsquare.git"
+}
