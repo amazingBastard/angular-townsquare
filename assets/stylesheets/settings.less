@@ -37,6 +37,7 @@
 
 			.form-control {
 				height: 28px;
+				padding: 5px;
 			}
 
 			.input-group-addon {
@@ -67,6 +68,13 @@
 
 	/* form actions */
 	.actions {
+		display: inline-block;
+		width: 100%;
+		margin-bottom: 15px;
+
+		@media only screen and (min-width: @phone-width) {
+			margin-bottom: 0;
+		}
 
 		.btn {
 			margin-left: 5px;

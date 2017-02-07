@@ -16,6 +16,10 @@ body {
     margin-bottom: 30px;
   }
 
+  @media only screen and (min-width: @laptop-width) {
+    margin-bottom: 60px;
+  }
+
   .navbar-brand {
     height: auto;
     padding: 0;
@@ -62,6 +66,14 @@ body {
 /* main view */
 .main.view {
 
+  @media only screen and (min-width: @tablet-width) {
+    margin-bottom: 30px;
+  }
+
+  @media only screen and (min-width: @laptop-width) {
+    margin-bottom: 60px;
+  }
+
   .container {
     padding-top: 30px;
     border-color: @border-color;
@@ -72,7 +84,6 @@ body {
     }
 
   	@media only screen and (min-width: @tablet-width) {
-      margin-bottom: 60px;
   		padding: 60px;
   	}
 
