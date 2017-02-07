@@ -2,61 +2,73 @@
   {
     "title": "Facebook",
     "icon": "fa fa-facebook",
-    "url": "facebook.com/"
+    "url": "facebook.com",
+    "type": "default"
   },
   {
     "title": "Twitter",
     "icon": "fa fa-twitter",
-    "url": "twitter.com/"
+    "url": "twitter.com",
+    "type": "default"
   },
   {
     "title": "LinkedIn",
     "icon": "fa fa-linkedin",
-    "url": "linkedin.com/in/"
+    "url": "linkedin.com/in",
+    "type": "default"
   },
   {
     "title": "LinkedIn Company",
     "icon": "fa fa-linkedin",
-    "url": "linkedin.com/company/"
+    "url": "linkedin.com/company",
+    "type": "default"
   },
   {
     "title": "Google Plus",
     "icon": "fa fa-google-plus",
-    "url": "plus.google.com/"
+    "url": "plus.google.com",
+    "type": "default"
   },
   {
     "title": "Youtube",
     "icon": "fa fa-youtube",
-    "url": "youtube.com/"
+    "url": "youtube.com",
+    "type": "default"
   },
   {
     "title": "Flickr",
     "icon": "fa fa-flickr",
-    "url": "flickr.com/"
+    "url": "flickr.com",
+    "type": "default"
   },
   {
     "title": "Vimeo",
     "icon": "fa fa-vimeo",
-    "url": "vimeo.com/"
+    "url": "vimeo.com",
+    "type": "default"
   },
   {
     "title": "Pinterest",
     "icon": "fa fa-pinterest",
-    "url": "pinterest.com/"
+    "url": "pinterest.com",
+    "type": "default"
   },
   {
     "title": "Instagram",
     "icon": "fa fa-instagram",
-    "url": "followgram.com/"
+    "url": "followgram.com",
+    "type": "default"
   },
   {
     "title": "Foursquare",
     "icon": "fa fa-foursquare",
-    "url": "foursquare.com/"
+    "url": "foursquare.com",
+    "type": "default"
   },
   {
     "title": "Tumblr",
     "icon": "fa fa-tumblr",
-    "url": ".tumblr.com"
+    "url": "tumblr.com",
+    "type": "subdomain"
   }
 ]

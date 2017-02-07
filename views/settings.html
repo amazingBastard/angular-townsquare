@@ -56,8 +56,13 @@
 								<ul class="list-unstyled accounts">
 									<li class="item" ng-repeat="account in accounts">
 										<div class="input-group">
-										  <span class="input-group-addon" id="account-url">{{account.url}}</span>
+											<span ng-if="account.type == 'default'" class="input-group-addon" id="account-url">
+										  	{{account.url}}/
+											</span>
 										  <input type="text" class="form-control" id="account-username" aria-describedby="account-url" placeholder="Screenname">
+											<span ng-if="account.type == 'subdomain'" class="input-group-addon" id="account-url">
+										  	.{{account.url}}
+											</span>
 										</div>
 									</li>
 								</ul>
