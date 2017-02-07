@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Facebook",
+    "icon": "fa fa-facebook",
+    "url": "facebook.com/"
+  },
+  {
+    "title": "Twitter",
+    "icon": "fa fa-twitter",
+    "url": "twitter.com/"
+  },
+  {
+    "title": "LinkedIn",
+    "icon": "fa fa-linkedin",
+    "url": "linkedin.com/in/"
+  },
+  {
+    "title": "LinkedIn Company",
+    "icon": "fa fa-linkedin",
+    "url": "linkedin.com/company/"
+  },
+  {
+    "title": "Google Plus",
+    "icon": "fa fa-google-plus",
+    "url": "plus.google.com/"
+  },
+  {
+    "title": "Youtube",
+    "icon": "fa fa-youtube",
+    "url": "youtube.com/"
+  },
+  {
+    "title": "Flickr",
+    "icon": "fa fa-flickr",
+    "url": "flickr.com/"
+  },
+  {
+    "title": "Vimeo",
+    "icon": "fa fa-vimeo",
+    "url": "vimeo.com/"
+  },
+  {
+    "title": "Pinterest",
+    "icon": "fa fa-pinterest",
+    "url": "pinterest.com/"
+  },
+  {
+    "title": "Instagram",
+    "icon": "fa fa-instagram",
+    "url": "followgram.com/"
+  },
+  {
+    "title": "Foursquare",
+    "icon": "fa fa-foursquare",
+    "url": "foursquare.com/"
+  },
+  {
+    "title": "Tumblr",
+    "icon": "fa fa-tumblr",
+    "url": ".tumblr.com"
+  }
+]
