@@ -1,0 +1,42 @@
+body {
+  height: 100%;
+  background-color: @background-color;
+}
+
+/* navbar */
+.navbar {
+
+}
+
+/* main view */
+.main.view {
+	padding-top: 50px;
+
+	@media only screen and (min-width: @tablet-width) {
+		padding-top: 100px;
+	}
+
+  .container {
+  	padding: 30px;
+    border-color: @border-color;
+  	background-color: #fff;
+
+  	@media only screen and (min-width: @tablet-width) {
+      margin-bottom: 60px;
+  		padding: 60px;
+  	}
+
+  	@media only screen and (min-width: @laptop-width) {
+  		padding: 80px;
+  	}
+
+  	@media only screen and (min-width: @desktop-width) {
+  		padding: 100px;
+  	}
+
+  	.title {
+  		margin: 0;
+  		margin-bottom: 30px;
+  	}
+  }
+}
