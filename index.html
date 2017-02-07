@@ -7,7 +7,7 @@
 		<link rel="stylesheet/less" type="text/css" href="assets/stylesheets/_application.less" />
 	</head>
 	<body>
-		<nav class="navbar navbar-inverse navbar-fixed-top">
+		<nav class="navbar navbar-inverse">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 				<span class="sr-only">Menu</span>
@@ -15,11 +15,38 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#">Townsquare</a>
+				<a class="navbar-brand" href="#">
+					<img class="logo" src="/assets/images/logo.jpg" />
+				</a>
 			</div>
 			<div id="navbar" class="collapse navbar-collapse">
 				<ul class="nav navbar-nav">
-					<li ng-class="{active: controller == 'settings'}"><a href="#/">Settings</a></li>
+					<li ng-class="navbar-item">
+						<a class="navbar-link" href="#/"><i class="fa fa-paint-brush icon" aria-hidden="true"></i> Design</a>
+					</li>
+					<li ng-class="navbar-item">
+						<a class="navbar-link" href="#/"><i class="fa fa-bolt icon" aria-hidden="true"></i> Logos</a>
+					</li>
+					<li ng-class="navbar-item">
+						<a class="navbar-link" href="#/"><i class="fa fa-files-o icon" aria-hidden="true"></i> Add Pages</a>
+					</li>
+					<li ng-class="navbar-item">
+						<a class="navbar-link" href="#/"><i class="fa fa-th-list icon" aria-hidden="true"></i> Navigation</a>
+					</li>
+					<li ng-class="navbar-item">
+						<a class="navbar-link" href="#/"><i class="fa fa-file-text icon" aria-hidden="true"></i> Page Publisher</a>
+					</li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li ng-class="navbar-item">
+						<a class="navbar-link" href="#/"><i class="fa fa-bar-chart icon" aria-hidden="true"></i></a>
+					</li>
+					<li ng-class="navbar-item">
+						<a class="navbar-link active" href="#/"><i class="fa fa-cog icon" aria-hidden="true"></i></a>
+					</li>
+					<li ng-class="navbar-item">
+						<a class="navbar-link" href="#/"><i class="fa fa-sign-out icon" aria-hidden="true"></i> Admin</a>
+					</li>
 				</ul>
 			</div>
 		</nav>

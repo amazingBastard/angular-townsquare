@@ -1,11 +1,12 @@
 /* global elements */
-.nav-link, .form-control, .input-group-addon, .well {
+.nav-link, .form-control, .input-group-addon, .well, .btn {
   border-radius: 0 !important;
+  border-color: @border-color;
 }
 
 /* typography */
 h1, h2, h3, h4, h5, h6,
-p, th, td, span, input {
+p, th, td, input, textarea {
   color: @font-color;
 }
 
@@ -20,19 +21,59 @@ a {
 /* tabs */
 .nav-tabs {
   margin-bottom: 40px;
+
+  @media only screen and (min-width: @tablet-width) {
+    .icon {
+      margin-right: 5px;
+    }
+  }
 }
 
-/* button */
-.button-primary {
+/* button default */
+.btn-default {
+
+  &:hover {
+    border-color: @font-color;
+    background-color: @neutral-color;
+  }
+
+  &:focus,
+  &:active,
+  &.active {
+    outline: 0;
+    border-color: darken(@primary-color, 10%) !important;
+    background-color: @primary-color !important;
+    color: #fff !important;
+  }
+}
+
+/* button primary */
+.btn-primary {
+  border-color: darken(@primary-color, 10%);
   background-color: @primary-color;
+
+  &:hover {
+    border-color: darken(@primary-color, 20%);
+    background-color: darken(@primary-color, 10%);
+  }
+
+  &:focus,
+  &:active,
+  &.active {
+    outline: 0;
+    border-color: darken(@primary-color, 25%);
+    background-color: darken(@primary-color, 15%);
+  }
 }
 
 /* well */
 .well {
-  padding: 30px;
   box-shadow: 0 1px 1px 0 @border-color;
-  border-color: @border-color;
   background-color: @neutral-color;
+
+  @media only screen and (min-width: @phone-width) {
+    padding: 30px;
+  }
 }
 
 /* forms */

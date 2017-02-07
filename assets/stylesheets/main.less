@@ -5,21 +5,71 @@ body {
 
 /* navbar */
 .navbar {
+  min-height: auto;
+  margin: 0;
+  border: 0;
+  box-shadow: 0 0 2px 0 #000;
+  background-color: #3d4449;
+  color: #b6bdc2;
 
+  @media only screen and (min-width: @tablet-width) {
+    margin-bottom: 30px;
+  }
+
+  .navbar-brand {
+    height: auto;
+    padding: 0;
+
+    .logo {
+      width: 225px;
+    }
+  }
+
+  .navbar-toggle {
+    margin: 0;
+    padding: 10px;
+    border: 0;
+  }
+
+  .navbar-collapse {
+    max-height: auto;
+    border: 0;
+  }
+
+  .navbar-item {
+    background-color: transparent;
+  }
+
+  .navbar-link {
+    padding: 12px;
+    font-size: 10px;
+    line-height: 1;
+
+    @media only screen and (min-width: @laptop-width) {
+      font-size: 12px;
+    }
+
+    &.active {
+      color: #fff;
+    }
+
+    .icon {
+      margin-right: 5px;
+    }
+  }
 }
 
 /* main view */
 .main.view {
-	padding-top: 50px;
-
-	@media only screen and (min-width: @tablet-width) {
-		padding-top: 100px;
-	}
 
   .container {
-  	padding: 30px;
+    padding-top: 30px;
     border-color: @border-color;
   	background-color: #fff;
+
+    @media only screen and (min-width: @phone-width) {
+      padding: 30px;
+    }
 
   	@media only screen and (min-width: @tablet-width) {
       margin-bottom: 60px;

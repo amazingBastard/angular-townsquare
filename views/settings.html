@@ -6,7 +6,7 @@
 			<uib-tabset active="active">
     		<uib-tab index="0">
 					<uib-tab-heading>
-						<i class="fa fa-globe" aria-hidden="true"></i> Site Info
+						<i class="fa fa-globe icon" aria-hidden="true"></i> <span class="hidden-xs">Site Info</span>
 					</uib-tab-heading>
 
 					<h5 class="heading">General Info</h5>
@@ -32,19 +32,23 @@
 
 					<section class="well">
 						<div class="row">
-							<div class="col-xs-6">
+							<div class="col-sm-6">
 								<div class="header">
 									<h5 class="title">Full Color Icons</h5>
+									<div class="btn-group pull-right">
+						        <label class="btn btn-default" ng-model="colorIcons" uib-btn-radio="'on'">ON</label>
+						        <label class="btn btn-default active" ng-model="colorIcons" uib-btn-radio="'off'">OFF</label>
+							    </div>
 								</div>
 
-								<ul class="list-unstyled accounts">
+								<ul class="list-unstyled accounts hidden-xs">
 									<li class="item" ng-repeat="account in accounts">
       							<strong><i class="{{account.icon}} icon" aria-hidden="true"></i> {{account.title}}</strong>
     							</li>
 								</ul>
 							</div>
 
-							<div class="col-xs-6">
+							<div class="col-sm-6">
 								<div class="header">
 									<h5 class="title">Social Module Title</h5>
 									<div class="input-group">
@@ -69,11 +73,16 @@
 							</div>
 						</div>
 					</section>
+
+					<section class="actions">
+						<button type="button" class="btn btn-primary pull-right">Save</button>
+						<button type="button" class="btn btn-default pull-right">Cancel</button>
+					</section>
 				</uib-tab>
 
 				<uib-tab index="1">
 					<uib-tab-heading>
-						<i class="fa fa-phone" aria-hidden="true"></i> Business Contacts
+						<i class="fa fa-phone icon" aria-hidden="true"></i> <span class="hidden-xs">Business Contacts</span>
 					</uib-tab-heading>
 
 					Business Contacts
@@ -81,7 +90,7 @@
 
 				<uib-tab index="2">
 					<uib-tab-heading>
-						<i class="fa fa-dashboard" aria-hidden="true"></i> Dashboard Info
+						<i class="fa fa-dashboard icon" aria-hidden="true"></i> <span class="hidden-xs">Dashboard Info</span>
 					</uib-tab-heading>
 
 					Dashboard Info
