@@ -36,14 +36,14 @@
 								<div class="header">
 									<h5 class="title">Full Color Icons</h5>
 									<div class="btn-group pull-right">
-						        <label class="btn btn-default" ng-model="colorIcons" uib-btn-radio="'on'">ON</label>
-						        <label class="btn btn-default active" ng-model="colorIcons" uib-btn-radio="'off'">OFF</label>
+						        <label class="btn btn-default" ng-model="colorIcons" uib-btn-radio="'on'" ng-click="color = true">ON</label>
+						        <label class="btn btn-default active" ng-model="colorIcons" uib-btn-radio="'off'" ng-click="color = false">OFF</label>
 							    </div>
 								</div>
 
 								<ul class="list-unstyled accounts hidden-xs">
 									<li class="item" ng-repeat="account in accounts">
-      							<strong><i class="{{account.icon}} icon" aria-hidden="true"></i> {{account.title}}</strong>
+      							<strong><i class="{{account.icon}} icon" aria-hidden="true" ng-class="{color: color}"></i> {{account.title}}</strong>
     							</li>
 								</ul>
 							</div>
